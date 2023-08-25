@@ -10,6 +10,7 @@ const App = () => {
       <h1>Hi it is me Tshepo</h1>
       <h1>Hi it is me Nothando</h1>
       <h1>Hi it is me Tshembani</h1>
+
     </div>
 
   )
