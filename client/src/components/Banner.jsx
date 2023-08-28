@@ -3,6 +3,10 @@ import '../banner/Banner.css'
 
 const Banner = () => {
 
-  return ()
+  return (
+    <div>
+
+   </div>
+  )
  }
 export default Banner
