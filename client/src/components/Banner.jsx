@@ -7,10 +7,11 @@ const Banner = () => {
     <div>
 
     <div className="container">
-  
-    </div>
+            <br /><br /><br /><br />
+       <h1 className="market">Welcome to Neighborhood Market</h1>
+     </div>
 
-   </div>
+      </div>
   )
  }
 export default Banner
