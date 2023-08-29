@@ -37,7 +37,7 @@ const Header = () => {
         </details>
       </li>
       <li><a>Promos</a></li>
-      <li><a>Gift Card</a></li>
+      <li><a to=''>Gift Card</a></li>
 
       <li><a>Sign Up</a></li>
     </ul>
