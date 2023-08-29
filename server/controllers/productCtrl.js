@@ -1,4 +1,4 @@
-const PRODUCTS_MOCK = require('../productData')
+const PRODUCTS_MOCK = require('../Data/productData')
 
 
 
