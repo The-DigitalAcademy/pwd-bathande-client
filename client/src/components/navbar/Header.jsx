@@ -83,7 +83,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-<<<<<<< HEAD
+
     <a className="btn btn-ghost normal-case text-xl"></a>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -101,9 +101,10 @@ const Header = () => {
       </li>
       <li><a>Promos</a></li>
       <li><a to=''>Gift Card</a></li>
-=======
+
+
   );
 };
->>>>>>> origin/main
+
 
 export default Header;
