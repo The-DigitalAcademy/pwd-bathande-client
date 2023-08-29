@@ -23,10 +23,10 @@ function Footer() {
           <span className="footer-title">Social</span>
           <div className="grid grid-flow-col gap-4">
             <div>
-              <li><a class="facebook" href="https://www.facebook.com%22%3E>/"   a/></li><i class="bi bi-facebook"></i>
-              <li><a class="twitter" href="https://help.twitter.com%22%3E/ " a/></li><i class="bi bi-twitter"></i>
-              <li><a class="dribbble" href="https://dribbble.com/%22%3E/" a/></li><i class="bi bi-dribbble"></i>
-              <li><a class="linkedin" href="https://www.linkedin.com%22%3E/ " a/></li><i class="bi bi-linkedin"></i>
+              <li><a class="facebook" href="https://www.facebook.com%22%3E>/"a/></li><i class="bi bi-facebook"></i>
+              <li><a class="twitter" href="https://help.twitter.com%22%3E/"a/></li><i class="bi bi-twitter"></i>
+              <li><a class="dribbble" href="https://dribbble.com/%22%3E/"a/></li><i class="bi bi-dribbble"></i>
+              <li><a class="linkedin" href="https://www.linkedin.com%22%3E/"a/></li><i class="bi bi-linkedin"></i>
             </div>
           </div>
         </div>
