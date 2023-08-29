@@ -1,0 +1,10 @@
+
+### Men Products
+http://localhost:3000/api/productsMen
+
+### Products
+http://localhost:3000/api/products
+
+### Women Products
+
+http://localhost:3000/api/productsWomen

@@ -45,11 +45,17 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Neighborhood Market</a>
+          <a className="btn btn-ghost normal-case text-xl">
+            Neighborhood Market
+          </a>
         </div>
         <div className="form-control">
-      <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
-    </div>
+          <input
+            type="text"
+            placeholder="Search"
+            className="input input-bordered w-24 md:w-auto"
+          />
+        </div>
 
         <div className="dropdown dropdown-end ml-80">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -96,24 +102,23 @@ const Navbar = () => {
           >
             <li>
               <a className="justify-between">
-                Profile
                 <span className="badge">New</span>
               </a>
             </li>
-            <li>
-              <a>Settings</a>
+            <li className="nav-item">
+              <a className="nav-link" href="/Gift Card">
+                Logout
+              </a>
             </li>
-            <li>
-              <a>Logout</a>
-            </li>
-            <li>
-              <a>Login</a>
+            <li className="nav-item">
+              <a className="nav-link" href="/Gift Card">
+                Login
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    
   );
 };
 

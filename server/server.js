@@ -6,8 +6,12 @@ const cors = require('cors')
 app.use(cors())
 
 const productRoute = require('./routes/productRoutes')
+const productsMen = require('./routes/productMenRoutes')
+const productsWomen = require('./routes/productRoutes')
 
 app.use('/api/products', productRoute)
+app.use('/api/productsMen', productsMen)
+app.use('/api/productsWomen', productsWomen)
 
 app.get('/', (req, res)=> res.send('Hello World'))
 
