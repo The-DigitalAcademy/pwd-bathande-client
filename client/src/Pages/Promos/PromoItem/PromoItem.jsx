@@ -1,6 +1,6 @@
 import React from "react";
 import './PromoItem.css'
-import PromoItem from "./PromoItem/PromoItem";
+
 
 const PromoItem = ({backgroundColor, image, header, name, priceText}) => {
   return (
