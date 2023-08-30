@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import {data} from "../data";
 import Product from '../components/Product'
 
-// const CategoryProducts = () => {
+const CategoryProducts = () => {
 //   const { name } = useParams();
 
 //   console.log(name)
@@ -26,6 +26,6 @@ import Product from '../components/Product'
 //       </div>
 //     </div>
 //   );
-// };
+};
 
-// export default CategoryProducts;
+export default CategoryProducts;
