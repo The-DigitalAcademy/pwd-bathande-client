@@ -4,13 +4,14 @@ import {
   } from "react-router-dom";
 
   import Banner from "../components/banner/Banner";
-  import Women from "../page/Women";
-  import Men from "../page/Men";
-  import NewArrivals from "../page/NewArrivals";
-  import Promos from "../page/Promos";
+  import Women from "../Pages/Women";
+  import Men from "../Pages/Men";
+  import NewArrivals from "../Pages/NewArrivals";
+  import Promos from "../Pages/Promos/Promos";
   import Giftcard from "../components/Giftcards/Giftcard";
-  import Login from "../page/Login"
-  import Register from "../page/Register";
+  import Login from "../Pages/Login"
+  import Register from "../Pages/Register";
+  import Home from '../App'
  
   const router = createBrowserRouter([
 
@@ -34,7 +35,7 @@ import {
       },
 
       {
-        path: "promos",
+        path: "/promos",
         element: <Promos/>,
       },
 
@@ -58,9 +59,4 @@ import {
     },
   ]);
 
-
-  ReactDOM.createRoot(document.getElementById("root")).render(
-    <React.StrictMode>
-      <RouterProvider router={router} />
-    </React.StrictMode>
-  );
+  export default router;
