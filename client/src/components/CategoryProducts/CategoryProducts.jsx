@@ -6,10 +6,10 @@ import Product from '../components/Product'
 const CategoryProducts = () => {
   const { name } = useParams();
 
-//   console.log(name)
+  console.log(name)
 
 
-//   const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([]);
 
 //   useEffect(() => {
 
