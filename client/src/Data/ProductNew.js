@@ -1,9 +1,8 @@
-const ProductNewArrivals =[
+const Products =[
     {
         id: 1,
         title: 'MAXI DRESS',
         description: 'An apple mobile which is nothing like apple',
-        price: R549,
         discountPercentage: 12.96,
         rating: 4.69,
         stock: 94,
@@ -23,13 +22,12 @@ const ProductNewArrivals =[
         title: 'Heels',
         description:
           'SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...',
-        price: R899,
         discountPercentage: 17.94,
         rating: 4.44,
         stock: 34,
         brand: 'Apple',
         category: 'smartphones',
-        thumbnail: 'https://i.dummyjson.com/data/products/2/thumbnail.jpg',
+        thumbnail: 'https://media.istockphoto.com/id/475929302/photo/female-legs-in-fashion-shoes.jpg?s=612x612&w=0&k=20&c=RNkkrmNWN9Ffvw11x5u9Q9__NoCFTqGH_4fwMmfrjTQ=',
         images: [
           'https://i.dummyjson.com/data/products/2/1.jpg',
           'https://i.dummyjson.com/data/products/2/2.jpg',
@@ -42,26 +40,24 @@ const ProductNewArrivals =[
         title: 'Sima Brew',
         description:
           "Samsung's new variant which goes beyond Galaxy to the Universe",
-        price: R1249,
         discountPercentage: 15.46,
         rating: 4.09,
         stock: 36,
         brand: 'Samsung',
         category: 'smartphones',
-        thumbnail: 'https://i.dummyjson.com/data/products/3/thumbnail.jpg',
+        thumbnail: 'https://shacara.com/members/5/uploads/5d3b64ba7b54b4.64319625.jpg',
         images: ['https://i.dummyjson.com/data/products/3/1.jpg'],
       },
       {
         id: 4,
         title: 'Handbag',
         description: 'OPPO F19 is officially announced on April 2021.',
-        price: R1280,
         discountPercentage: 17.91,
         rating: 4.3,
         stock: 123,
         brand: 'OPPO',
         category: 'smartphones',
-        thumbnail: 'https://i.dummyjson.com/data/products/4/thumbnail.jpg',
+        thumbnail: 'https://media.istockphoto.com/id/648695634/photo/skin-animals-texture-bag-luxury-item-on-white.jpg?s=612x612&w=0&k=20&c=QnRHcIjpwDEwYk_ce57cLhO-SzJnpPeVus5z6OmSOf8=',
         images: [
           'https://i.dummyjson.com/data/products/4/1.jpg',
           'https://i.dummyjson.com/data/products/4/2.jpg',
@@ -75,13 +71,12 @@ const ProductNewArrivals =[
         title: 'Skinny Jacket',
         description:
           'Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.',
-        price: R2499,
         discountPercentage: 10.58,
         rating: 4.09,
         stock: 32,
         brand: 'Huawei',
         category: 'smartphones',
-        thumbnail: 'https://i.dummyjson.com/data/products/5/thumbnail.jpg',
+        thumbnail: 'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3233222/original.jpg',
         images: [
           'https://i.dummyjson.com/data/products/5/1.jpg',
           'https://i.dummyjson.com/data/products/5/2.jpg',
@@ -93,13 +88,12 @@ const ProductNewArrivals =[
         title: 'Soho Slim Fit',
         description:
           'MacBook Pro 2021 with mini-LED display may launch between September, November',
-        price: R1749,
         discountPercentage: 11.02,
         rating: 4.57,
         stock: 83,
         brand: 'Apple',
         category: 'laptops',
-        thumbnail: 'https://i.dummyjson.com/data/products/6/thumbnail.png',
+        thumbnail: 'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3036124/original.jpg',
         images: [
           'https://i.dummyjson.com/data/products/6/1.png',
           'https://i.dummyjson.com/data/products/6/2.jpg',
@@ -112,13 +106,12 @@ const ProductNewArrivals =[
         title: 'HI-Tie',
         description:
           'MacBook Pro 2021 with mini-LED display may launch between September, November',
-        price: R100,
         discountPercentage: 11.02,
         rating: 4.57,
         stock: 83,
         brand: 'Apple',
         category: 'laptops',
-        thumbnail: 'https://i.dummyjson.com/data/products/6/thumbnail.png',
+        thumbnail: 'https://m.media-amazon.com/images/I/81qCnXvFEvL._AC_UL600_FMwebp_QL65_.jpg',
         images: [
           'https://i.dummyjson.com/data/products/6/1.png',
           'https://i.dummyjson.com/data/products/6/2.jpg',
@@ -131,13 +124,12 @@ const ProductNewArrivals =[
         title: 'Men Fashion Bag',
         description:
           'MacBook Pro 2021 with mini-LED display may launch between September, November',
-        price: R1749,
         discountPercentage: 11.02,
         rating: 4.57,
         stock: 83,
         brand: 'Apple',
         category: 'laptops',
-        thumbnail: 'https://i.dummyjson.com/data/products/6/thumbnail.png',
+        thumbnail: 'https://images.unsplash.com/photo-1490427712608-588e68359dbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWVuJTIwZmFzaGlvbiUyMGJhZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
         images: [
           'https://i.dummyjson.com/data/products/6/1.png',
           'https://i.dummyjson.com/data/products/6/2.jpg',
@@ -146,3 +138,4 @@ const ProductNewArrivals =[
         ],
       },
 ]
+export default Products

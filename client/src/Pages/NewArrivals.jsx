@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom"
 import Navbar from "../components/navbar/Navbar";
 import Header from "../components/navbar/Header";
-import ProductNewArrivals from "../Data/ProductNewArrivals";
+import ProductNew from '../Data/ProductNew'
+import '../Pages/NewArrivals.css'
+
 
 function NewArrivals() {
   return (
@@ -10,10 +12,10 @@ function NewArrivals() {
       <Navbar />
       <Header />
 
-      {ProductNewArrivals.map((card,(index) => (
+      {ProductNew.map((card, index) => (
           <div key={index} className="card card-compact w-96 bg-base-100 shadow-xl">
             <figure>
-              <img src={Card.Image} className="" alt="..." />
+              <img src={card.thumbnail} className="" alt="..." />
             </figure>
             <div className="card-body">
               <h2 className="card-title">{card.name}</h2>
@@ -26,8 +28,7 @@ function NewArrivals() {
               </div>
             </div>
           </div>
-        ))
-      )}
+        ))}
     </div>
   );
 }

@@ -13,7 +13,8 @@ import {
   import Register from "../Pages/Register";
   import Home from '../App'
   import Error from '../Pages/error/ErrorMsg'
- 
+  import ProductNew from '../Data/ProductNew'
+
   const router = createBrowserRouter([
 
     {
@@ -25,6 +26,10 @@ import {
       {
         path: "newarrivals",
         element: <NewArrivals/>,
+      },
+      {
+        path: "/list/:name",
+        element: <ProductNew/>,
       },
 
       {
