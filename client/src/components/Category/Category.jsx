@@ -30,8 +30,8 @@ const Category = () => {
  
 
 
-// {
-//   return (
+{
+  return (
 //     <div>
 //         <div className="category">
 // <div className="header">Product Category</div>
@@ -43,12 +43,12 @@ const Category = () => {
 //         <Link to={`/category/&{name}`} className= "item" key ={index}>
 //             {name}
 //         </Link>
-//     ))}
+    // ))}
 //   </div>
 // </div>
 // </div>
 //     </div>
-//   )
+  )
 }
 
 export default Category
