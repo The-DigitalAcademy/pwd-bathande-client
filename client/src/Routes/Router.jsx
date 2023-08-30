@@ -12,12 +12,14 @@ import {
   import Login from "../Pages/Login"
   import Register from "../Pages/Register";
   import Home from '../App'
+  import Error from '../Pages/error/ErrorMsg'
  
   const router = createBrowserRouter([
 
     {
         path: "/",
         element: <Home/>,
+        errorElement: <Error />
       },
 
       {
