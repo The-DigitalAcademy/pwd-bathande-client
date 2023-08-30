@@ -19,10 +19,15 @@
 // export default Giftcard
 
 import React from 'react'
+import Navbar from '../navbar/Navbar'
+import Header from '../navbar/Header'
 
 const Giftcard = () => {
   return (
-    <div>Giftcard</div>
+    <div>
+          <Navbar/>
+        <Header/>
+    </div>
   )
 }
 

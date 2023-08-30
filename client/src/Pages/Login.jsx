@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '../components/navbar/Navbar'
+import Header from '../components/navbar/Header'
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <div>
+       <Navbar/>
+        <Header/>
+    </div>
   )
 }
 

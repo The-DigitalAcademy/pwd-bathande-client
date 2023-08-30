@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../components/navbar/Navbar'
+import Header from '../components/navbar/Header'
 
 const Men = () => {
   return (
     <div>
+       <Navbar/>
+        <Header/>
       <div className="card w-96 bg-base-100 shadow-xl">
   <figure className="px-10 pt-10">
     <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />

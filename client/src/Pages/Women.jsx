@@ -60,10 +60,15 @@
 // export default Women
 
 import React from 'react'
+import Navbar from '../components/navbar/Navbar'
+import Header from '../components/navbar/Header'
 
 const Women = () => {
   return (
-    <div>Women</div>
+    <div>
+         <Navbar/>
+        <Header/>
+    </div>
   )
 }
 
