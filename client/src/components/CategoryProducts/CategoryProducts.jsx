@@ -19,12 +19,12 @@ const CategoryProducts = () => {
   }, []);
 
   return (
-//     <div className="categoryPoducts">
-//       <div className="header">Category{name}</div>
-//       <div className="products">
-//         {products?.map((product) => <Product key={product.id} product={product} />)}
-//       </div>
-//     </div>
+    <div className="categoryPoducts">
+      <div className="header">Category{name}</div>
+      <div className="products">
+        {products?.map((product) => <Product key={product.id} product={product} />)}
+      </div>
+    </div>
   );
 };
 
