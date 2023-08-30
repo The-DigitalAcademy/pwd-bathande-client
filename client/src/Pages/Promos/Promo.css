@@ -10,12 +10,12 @@
     display: flex;
     flex-direction: column;
   } 
-  
-  
   .promo-content {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 5%;
-    gap: 2rem;
+    padding: 0 4%;
+    gap: 3rem;
   }
+  
+  
