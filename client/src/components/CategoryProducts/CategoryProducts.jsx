@@ -4,7 +4,7 @@ import {data} from "../data";
 import Product from '../components/Product'
 
 const CategoryProducts = () => {
-//   const { name } = useParams();
+  const { name } = useParams();
 
 //   console.log(name)
 
