@@ -15,13 +15,13 @@ const Category = () => {
         // array that going to holds the categories
         let categoryData = [];
 
-//         // loop through all the data
-//         for (let i = 0; i < data.length; i++) {
+        // loop through all the data
+        for (let i = 0; i < data.length; i++) {
 
-//             // if categery name is not already in the categoryName state 
-//             if (! categoryData.includes (data [i].Category)){
-//                 categoryData.push (data[i].category);
-//             }
+            // if categery name is not already in the categoryName state 
+            if (! categoryData.includes (data [i].Category)){
+                categoryData.push (data[i].category);
+            }
 //         }
 //             // add all the usique category name in the categoryNames state
 //         setCategoryNames(categoryData);
