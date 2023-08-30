@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import { data} from "../data";
 import {Link} from 'react-router-dom'
 
-// const Category = () => {
+const Category = () => {
 
 //     const [categoryNames, setCategoryNames]= useState([]);
 
@@ -49,6 +49,6 @@ import {Link} from 'react-router-dom'
 // </div>
 //     </div>
 //   )
-// }
+}
 
-// export default Category
+export default Category
