@@ -6,9 +6,9 @@ const Category = () => {
 
     const [categoryNames, setCategoryNames]= useState([]);
 
-//     useEffect(() =>{
-//         setUniqueCategory();
-//     },[]);
+    useEffect(() =>{
+        setUniqueCategory();
+    },[]);
 //     // get unique category
 //     function setUniqueCategory(){
 
