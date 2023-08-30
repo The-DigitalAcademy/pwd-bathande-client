@@ -22,11 +22,11 @@ const Category = () => {
             if (! categoryData.includes (data [i].Category)){
                 categoryData.push (data[i].category);
             }
-//         }
-//             // add all the usique category name in the categoryNames state
-//         setCategoryNames(categoryData);
-//     }
-// }
+        }
+            // add all the usique category name in the categoryNames state
+        setCategoryNames(categoryData);
+    }
+}
  
 
 
