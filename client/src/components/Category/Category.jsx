@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const Category = () => {
 
-//     const [categoryNames, setCategoryNames]= useState([]);
+    const [categoryNames, setCategoryNames]= useState([]);
 
 //     useEffect(() =>{
 //         setUniqueCategory();
