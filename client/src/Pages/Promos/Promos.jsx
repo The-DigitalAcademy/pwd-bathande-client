@@ -2,8 +2,8 @@ import React from "react";
 import "../Promos/Promo.css";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/navbar/Header";
-
 import PromoItem from "./PromoItem/PromoItem";
+
 const Promos = () => {
   return (
     <div>
