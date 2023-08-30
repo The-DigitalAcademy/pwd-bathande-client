@@ -3,12 +3,12 @@ import {
     RouterProvider,
   } from "react-router-dom";
 
-  import Banner from "../banner/Banner";
+  import Banner from "../components/banner/Banner";
   import Women from "../page/Women";
   import Men from "../page/Men";
   import NewArrivals from "../page/NewArrivals";
   import Promos from "../page/Promos";
-  import Giftcard from "../Giftcards/Giftcard";
+  import Giftcard from "../components/Giftcards/Giftcard";
   import Login from "../page/Login"
   import Register from "../page/Register";
  

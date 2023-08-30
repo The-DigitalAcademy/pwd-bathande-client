@@ -6,7 +6,7 @@ const Banner = () => {
     <div>
       <div className="container">
         
-          <div className="card card-compact w-95 rounded box h-15 bg-base-100 shadow-xl">
+          <div className="card card-compact w-90 rounded box h-50 bg-base-100 shadow-x3">
             <figure>
               
               <img
