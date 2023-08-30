@@ -10,13 +10,13 @@
 .promoItem:hover {
     transform: scale(1.06);
 }
-
-
 .promoItem img {
-    width: 50%;
+    width: 52%;
     height: 100%;
     object-fit: cover;
 }
+
+
 
 .promoItem-details {
     flex: 1;
