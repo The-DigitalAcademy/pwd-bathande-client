@@ -1,0 +1,8 @@
+.alert{
+width: 400px;
+align-items: center;
+margin-left: 35rem;
+}
+span,svg{
+    text-align: center;
+}
