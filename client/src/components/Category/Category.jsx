@@ -9,8 +9,8 @@ const Category = () => {
     useEffect(() =>{
         setUniqueCategory();
     },[]);
-//     // get unique category
-//     function setUniqueCategory(){
+    // get unique category
+    function setUniqueCategory(){
 
 //         // array that going to holds the categories
 //         let categoryData = [];
