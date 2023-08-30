@@ -1,14 +1,14 @@
 import React from 'react'
+import '../Promos/Promo.css'
 import Navbar from '../../components/navbar/Navbar'
 import Header from '../../components/navbar/Header'
-
-const CategoryProduct = () => {
+const Promos = () => {
   return (
     <div>
-       <Navbar/>
+        <Navbar/>
         <Header/>
     </div>
   )
 }
 
-export default CategoryProduct
+export default Promos

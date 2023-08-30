@@ -1,30 +1,31 @@
-import React, { useState } from 'react'
+import React from 'react'
+<<<<<<< HEAD:client/src/components/page/Men.jsx
 import { Link } from "react-router-dom"
 // import Productdata from "../server/Productdata";
 import '../components/Women.jsx'
 import { useEffect } from 'react'
 
- const [women, setWomen] = useState([])
+ const [men, setMen] = useState([])
 
 useEffect(()=>
 {
-    fetch('http://localhost:3000/api/productsWomen')
+    fetch('http://localhost:3000/api/productsMen')
     .then((data)=> data.json())
-    .then((data)=> setWomen(data.data))
+    .then((data)=> setMen(data.data))
     .catch((error) => console.log("test"))
 
 }, [])
 
-console.log(women)
+console.log(Men)
 
-const Women = () => {
+const Men = () => {
     return (
  
         <div>
-            <div className='Header_Women'>
+            <div className='Header_Men'>
 
             </div>
-            <h1 className="Sub_header_Women">Women</h1>
+            <h1 className="Sub_header_Men">Men</h1>
 
             {
                 Productdata.map((Product, index) => {
@@ -55,6 +56,32 @@ const Women = () => {
 
         </div>
     )
+=======
+import Navbar from '../components/navbar/Navbar'
+import Header from '../components/navbar/Header'
+
+const Men = () => {
+  return (
+    <div>
+       <Navbar/>
+        <Header/>
+      <div className="card w-96 bg-base-100 shadow-xl">
+  <figure className="px-10 pt-10">
+    <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+    </div>
+  )
+>>>>>>> origin/main:client/src/Pages/Men.jsx
 }
 
-export default Women
+
+
+export default Men
