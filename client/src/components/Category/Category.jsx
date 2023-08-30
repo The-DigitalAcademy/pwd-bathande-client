@@ -12,8 +12,8 @@ const Category = () => {
     // get unique category
     function setUniqueCategory(){
 
-//         // array that going to holds the categories
-//         let categoryData = [];
+        // array that going to holds the categories
+        let categoryData = [];
 
 //         // loop through all the data
 //         for (let i = 0; i < data.length; i++) {
