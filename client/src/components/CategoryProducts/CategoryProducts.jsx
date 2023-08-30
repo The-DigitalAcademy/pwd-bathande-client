@@ -13,9 +13,9 @@ const CategoryProducts = () => {
 
   useEffect(() => {
 
-//     let p = data.filter((product) => product.category === name);
+    let p = data.filter((product) => product.category === name);
 
-//     setProducts(p);
+    setProducts(p);
   }, []);
 
 //   return (
