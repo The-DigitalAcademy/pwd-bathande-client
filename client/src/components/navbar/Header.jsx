@@ -24,23 +24,41 @@ const Header = () => {
           <a className="btn btn-ghost normal-case text-xl"></a>
         </div>
         <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li><a>New Arrivals</a></li>
-            <li tabIndex={0}>
-              <details>
-                <summary>Clothes</summary>
-                <ul className="p-2">
-                  <li><a>Men</a></li>
-                  <li><a>Women</a></li>
-                </ul>
-              </details>
+            <li className="nav-item">
+              <a className="nav-link" href="/">
+                Home
+              </a>
             </li>
-            <li><a>Promos</a></li>
-            <li><a>Gift Card</a></li>
-
-            <li><a>Sign Up</a></li>
+            <li className="nav-item">
+              <a className="nav-link" href="/NewArrivals">
+                NewArrivals
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Men">
+                Men
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Women">
+                Women
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Promos">
+                Promos
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Gift Card">
+                Gift Card
+              </a>
+            </li>
           </ul>
+        </div>
+
         </div>
 
       </div>
