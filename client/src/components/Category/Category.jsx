@@ -32,22 +32,22 @@ const Category = () => {
 
 {
   return (
-//     <div>
-//         <div className="category">
-// <div className="header">Product Category</div>
+    <div>
+        <div className="category">
+<div className="header">Product Category</div>
         
-//         <div className="card card-compact w-96 bg-base-100 shadow-xl">
-//   <figure><img src="" alt="Shoes" /></figure>
-//   < div className="list-2">
-//     {CategoryName?.map((name,index)=>(
-//         <Link to={`/category/&{name}`} className= "item" key ={index}>
-//             {name}
-//         </Link>
-    // ))}
-//   </div>
-// </div>
-// </div>
-//     </div>
+        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="" alt="Shoes" /></figure>
+  < div className="list-2">
+    {CategoryName?.map((name,index)=>(
+        <Link to={`/category/&{name}`} className= "item" key ={index}>
+            {name}
+        </Link>
+    ))}
+  </div>
+</div>
+</div>
+    </div>
   )
 }
 
