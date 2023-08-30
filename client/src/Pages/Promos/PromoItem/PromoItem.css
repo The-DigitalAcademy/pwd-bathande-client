@@ -7,10 +7,10 @@
     display: flex;
     transition: .4s;
 }
-
 .promoItem:hover {
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
+
 
 .promoItem img {
     width: 50%;
