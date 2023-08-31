@@ -15,8 +15,11 @@ const App = () => {
       <Video/>
       <Category/>
       <Footer/>
+<<<<<<< HEAD
       
      
+=======
+>>>>>>> 17742fd627d7ffd9239d9871678e59b5c10c1051
     </div>
 
   )           
