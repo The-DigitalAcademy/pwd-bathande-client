@@ -52,7 +52,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Gift Card">
+              <a className="nav-link" href="/GiftCard">
                 Gift Card
               </a>
             </li>
