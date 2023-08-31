@@ -8,7 +8,7 @@ const CardInfo = () => {
     const {name} = useParams ();
 
   return (
-    <div className="container" >
+    <div className="grid-container" >
         {
             ProductData.filter ((card )=> card.name === name ).map ((card,index)=>(
                 <div key ={index}>
