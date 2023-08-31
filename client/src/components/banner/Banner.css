@@ -1,0 +1,18 @@
+.card{
+ width: 96%;
+ height: 70vh;
+}
+
+.newWord{
+    position: absolute;
+    z-index: 2;
+    margin-top: -18rem;
+    margin-left: 37%;
+    font-size: 3rem;
+    background-color: rgb(60, 60, 60);
+    width: 50rem;
+    border-radius: 1rem;
+    color: rgb(255, 251, 251);
+    font-weight: bolder;
+    opacity: 0.7;
+}
