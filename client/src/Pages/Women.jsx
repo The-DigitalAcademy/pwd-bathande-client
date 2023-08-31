@@ -20,6 +20,7 @@ const Women = () => {
     <div>
       <Navbar />
       <Header />
+      <div className="promo-header">Women</div>
       <div class="grid-container">
         {
           women.map((viewwomen, index) => {

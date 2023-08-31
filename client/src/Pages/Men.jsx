@@ -21,6 +21,7 @@ const Men = () => {
         <div>
             <Navbar />
             <Header />
+            <div className="promo-header">Men</div>
             <div class="grid-container">
                 {
                     men.map((viewmen, index) => {
