@@ -19,7 +19,7 @@ function Footer() {
     </div>
   </div> 
   <div>
-    <p>Copyright © 2023 - All right Neighborhood Market Ltd</p>
+    <p>Copyright © 2023 - All right, Neighborhood Market Ltd</p>
   </div>
 </footer>
     </div>
