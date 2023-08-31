@@ -10,6 +10,7 @@ function Footer() {
     <a className="link link-hover">Contact</a> 
     <a className="link link-hover">Help</a> 
     <a className="link link-hover">Delivery</a>
+    <a href="link link-hover" className="order">Order</a>
   </div> 
   <div>
     <div className="grid grid-flow-col gap-4">
