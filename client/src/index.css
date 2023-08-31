@@ -1,3 +1,146 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    color: rgb(40, 40, 40);
+  }
+  
+  nav ul li {
+    cursor: pointer;
+    transition: .5s;
+  } 
+  
+  nav ul li:hover {
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  nav .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home .main {
+    padding: 2rem;
+  }
+  
+  .slider {
+    width: 100%;
+    height: 30vw;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right top, #00000086, #00000071), url(https://plus.unsplash.com/premium_photo-1661764072587-0050cc57ac17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .slider .header {
+    font-size: 3rem;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 1rem 3rem;
+  }
+  
+  .category {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  .header {
+    background-color: rgba(128, 128, 128, 0.211);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+  }
+  
+  .category .list-2 {
+    position: sticky;
+    left: 0;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .category .list-2 .item {
+    width: 18rem;
+    height: 10rem;
+    border: solid 1px gray;
+    display: grid;
+    place-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: .5s;
+    cursor: pointer;
+  }
+  
+  .category .list-2 .item:hover {
+    transform: scale(1.1);
+    background-color: rgba(128, 128, 128, 0.211);
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 1px 17px 51px -23px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 17px 51px -23px rgba(0,0,0,0.75);
+  box-shadow: 1px 17px 51px -23px rgba(0,0,0,0.75);
+  }
+  
+  .categoryPoducts {
+    padding: 2rem;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .product {
+    overflow: hidden;
+    width: 18rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    transition: .5s;
+    text-align: center;
+  }
+  
+  .product:hover {
+    -webkit-box-shadow: 1px 17px 51px -23px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 17px 51px -23px rgba(0,0,0,0.75);
+  box-shadow: 1px 17px 51px -23px rgba(0,0,0,0.75);
+  }
+  
+  .product img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+  }
+
+  
