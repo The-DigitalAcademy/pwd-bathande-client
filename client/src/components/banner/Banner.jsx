@@ -4,9 +4,9 @@ import "../banner/Banner.css";
 const Banner = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container mx-auto">
         
-          <div className="card card-compact w-90 rounded box h-50 bg-base-100 shadow-x3">
+          <div className="card card-compact w-100 ml-2 rounded box h-50 bg-base-200 shadow-x1">
             <figure>
               
               <img
