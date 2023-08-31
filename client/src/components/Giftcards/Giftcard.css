@@ -1,14 +1,14 @@
 body {
     /* display: flex; */
-    /* justify-content: center;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #fff; */
+    background-color: #fff;
     /* background-image: url(https://cdn.shopify.com/s/files/1/2504/3282/files/marbles_seemless.jpg?5912703254077228492); */
   }
   
   
-  /* .d-flex {
+  .d-flex {
     display: flex;
   }
   
