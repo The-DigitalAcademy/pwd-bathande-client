@@ -15,6 +15,7 @@ const Women = () => {
   }, [])
 
 
+
   return (
     <div>
       <Navbar />
@@ -26,18 +27,14 @@ const Women = () => {
             return (
 
               <div key={index}>
-                {
-                  console.log(viewwomen)
-                }
-
                 <div className="card bg-base-100 shadow-xl">
                   <figure>
                     <div>
-                      <img className='w-[400px] h-[300px]' src={viewwomen.thumbnail} />
+                      <img className='w-[400px] h-[300px]' src={viewwomen.Image} />
                     </div>
                   </figure>
                   <div className="card-body">
-                    <h2 className="card-title">{viewwomen.title}</h2>
+                    <h2 className="card-title">{viewwomen.name}</h2>
                     <p>R3000</p>
                     <div className="card-actions justify-end">
                       <button className="btn btn-primary">ADD TO CART</button>

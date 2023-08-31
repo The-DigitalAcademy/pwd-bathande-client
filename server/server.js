@@ -7,7 +7,7 @@ app.use(cors())
 
 const productRoute = require('./routes/productRoutes')
 const productsMen = require('./routes/productMenRoutes')
-const productsWomen = require('./routes/productRoutes')
+const productsWomen = require('./routes/productWomenRoutes')
 
 app.use('/api/products', productRoute)
 app.use('/api/productsMen', productsMen)
