@@ -8,14 +8,13 @@ import {
   import Men from "../Pages/Men";
   import NewArrivals from "../Pages/NewArrivals";
   import Promos from "../Pages/Promos/Promos";
- // import Giftcards from "../components/Giftcards/Giftcards";
- import Giftcards from "../components/Giftcards/Giftcards"
+  import Giftcards from "../components/Giftcards/Giftcards"
   import Login from "../Pages/Login"
   import Register from "../Pages/Register";
   import Home from '../App'
   import Error from '../Pages/error/ErrorMsg'
   import ProductNew from '../Data/ProductNew'
-
+  import Category from "../components/Category/Category";
   const router = createBrowserRouter([
 
     {
@@ -64,6 +63,11 @@ import {
     {
       path: "banner",
       element: <Banner/>,
+    },
+
+    {
+      path: "category/:id",
+      element: <Category/>
     },
   ]);
 

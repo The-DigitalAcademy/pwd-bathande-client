@@ -1,8 +1,8 @@
-const PRODUCTSMEN = require('../Data/productsWomen')
+const PRODUCTSWOMEN = require('../Data/productsWomen')
 
 const getAllWomen = (req, res) => {
 
-    res.json({ data: PRODUCTSMEN })
+    res.json({ data: PRODUCTSWOMEN })
 }
 
 module.exports = { getAllWomen }
