@@ -1,4 +1,5 @@
 import React from 'react'
+import '../error/Error.css'
 
 const error = () => {
     return (
