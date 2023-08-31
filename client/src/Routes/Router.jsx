@@ -8,7 +8,8 @@ import {
   import Men from "../Pages/Men";
   import NewArrivals from "../Pages/NewArrivals";
   import Promos from "../Pages/Promos/Promos";
-  import Giftcard from "../components/Giftcards/Giftcard";
+ // import Giftcards from "../components/Giftcards/Giftcards";
+ import Giftcards from "../components/Giftcards/Giftcards"
   import Login from "../Pages/Login"
   import Register from "../Pages/Register";
   import Home from '../App'
@@ -47,8 +48,8 @@ import {
       },
 
       {
-        path: "gift card",
-        element: <Giftcard/>,
+        path: "/giftcard",
+        element: <Giftcards/>,
       },
 
       {

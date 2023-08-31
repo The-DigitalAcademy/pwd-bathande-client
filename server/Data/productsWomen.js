@@ -23,6 +23,9 @@ const ProductData=[
     },
     {
         id: 8, name: 'MEN FASHION BAG',Image:'https://images.unsplash.com/photo-1490427712608-588e68359dbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWVuJTIwZmFzaGlvbiUyMGJhZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60'
+    },
+    {
+        id: 9, name: 'MEN FASHION BAG',Image:'https://images.unsplash.com/photo-1490427712608-588e68359dbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWVuJTIwZmFzaGlvbiUyMGJhZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60'
     }
 
 ]
