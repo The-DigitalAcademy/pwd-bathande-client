@@ -18,11 +18,11 @@ const Giftcards = () => {
             <div class="gift-card__amount-remaining">R50 Remaining</div>
             <div class="gift-card__code">645D 4353 FF77 DFG8</div>
             <div class="gift-card__msg">Use this code at checkout to redeem your gift card</div>
-//           </section>
-//         </article>
-//       </div>
+           </section>
+         </article>
+       </div>
 
-//     </div>
+     </div>
   )
 }
 
