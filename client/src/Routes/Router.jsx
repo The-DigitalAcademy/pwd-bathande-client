@@ -14,6 +14,7 @@ import {
   import Register from "../Pages/Register";
   import Home from '../App'
   import Error from '../Pages/error/ErrorMsg'
+  import Category from "../components/Category/Category";
  
   const router = createBrowserRouter([
 
@@ -59,6 +60,11 @@ import {
     {
       path: "banner",
       element: <Banner/>,
+    },
+
+    {
+      path: "category/:id",
+      element: <Category/>
     },
   ]);
 
