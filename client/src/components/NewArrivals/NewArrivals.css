@@ -4,11 +4,12 @@
     grid-template-columns: auto auto auto auto;
     gap: 5px;
     margin-left: -3%;
+    padding: 10px;
 }
 
 .New-card{
     height: 320px;
-    width: 300px;
+    width: 400px;
    
 }
 
