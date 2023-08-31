@@ -23,9 +23,6 @@ const ProductDataWomen=[
     },
     {
         id: 8, name: 'MEN FASHION BAG',Image:'https://media.istockphoto.com/id/1317457980/photo/beautiful-girl-wearing-golden-jewerly-a-golden-necklace-and-golden-rings.jpg?s=612x612&w=0&k=20&c=4cPQmuaYcoNUZ8xWjRVplRij_dwLHnU2r7We4JReJI4='
-    },
-    {
-        
     }
 
 ]
