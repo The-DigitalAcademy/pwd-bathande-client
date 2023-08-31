@@ -46,13 +46,13 @@ body {
     align-items: flex-end;
   }
   
-  /* .gift-card__msg {
+  .gift-card__msg {
     font-size: 10px;
     display: block;
     margin-top: 10px;
   }
   
-  .gift-card__details {
+  /* .gift-card__details {
     margin-top: auto;
     align-items: center;
     line-height: 1;
@@ -91,4 +91,4 @@ body {
 .container-giftcard{
     margin-top: 47rem;
     display: flex;
-}  */ */ */
+}  */ */ */ */
