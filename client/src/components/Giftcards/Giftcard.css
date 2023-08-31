@@ -38,7 +38,7 @@ body {
     background-image: url(https://cdn.shopify.com/s/files/1/2504/3282/files/annie-spratt-102799-unsplash.jpg?15904179471993750892);
   }
   
-  /* .gift-card__content {
+  .gift-card__content {
     padding: 30px 20px;
     flex: 1;
     display: flex;
@@ -46,7 +46,7 @@ body {
     align-items: flex-end;
   }
   
-  .gift-card__msg {
+  /* .gift-card__msg {
     font-size: 10px;
     display: block;
     margin-top: 10px;
@@ -91,4 +91,4 @@ body {
 .container-giftcard{
     margin-top: 47rem;
     display: flex;
-}  */ */
+}  */ */ */
