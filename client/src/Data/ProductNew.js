@@ -8,7 +8,7 @@ const Products =[
         stock: 94,
         brand: 'MAXI DRESS',
         category: 'smartphones',
-        thumbnail: 'https://shacara.com/members/3664/uploads/63f77e8bdacd82.92939689.jpg',
+        thumbnail: 'https://media.istockphoto.com/id/857323498/photo/mens-clothing-and-personal-accessories.webp?b=1&s=170667a&w=0&k=20&c=wu_BqjcY4XTNFRWkY9TnMbnC1qUb4WwHCfcWa5_EpIs=',
         images: [
           'https://shacara.com/members/3664/uploads/63f77e8bdacd82.92939689.jpg',
           'https://shacara.com/members/3664/uploads/63f77e8bdacd82.92939689.jpg',
@@ -27,7 +27,7 @@ const Products =[
         stock: 34,
         brand: 'Apple',
         category: 'smartphones',
-        thumbnail: 'https://media.istockphoto.com/id/475929302/photo/female-legs-in-fashion-shoes.jpg?s=612x612&w=0&k=20&c=RNkkrmNWN9Ffvw11x5u9Q9__NoCFTqGH_4fwMmfrjTQ=',
+        thumbnail: 'https://media.istockphoto.com/id/872828938/photo/mens-clothing-and-personal-accessories.webp?b=1&s=170667a&w=0&k=20&c=yHsEYyWEA8X1oQAw21eOrrnIJuxFKEXqTbV6e5_pUBo=',
         images: [
           'https://i.dummyjson.com/data/products/2/1.jpg',
           'https://i.dummyjson.com/data/products/2/2.jpg',
@@ -45,7 +45,7 @@ const Products =[
         stock: 36,
         brand: 'Samsung',
         category: 'smartphones',
-        thumbnail: 'https://shacara.com/members/5/uploads/5d3b64ba7b54b4.64319625.jpg',
+        thumbnail: 'https://media.istockphoto.com/id/186376434/photo/luxury-european-bag-store.jpg?s=612x612&w=0&k=20&c=6nZILAFbvEAvalUuHzRJVkMiKKE7frqZvQfDcD8c6v4=',
         images: ['https://i.dummyjson.com/data/products/3/1.jpg'],
       },
       {
@@ -57,7 +57,7 @@ const Products =[
         stock: 123,
         brand: 'OPPO',
         category: 'smartphones',
-        thumbnail: 'https://media.istockphoto.com/id/648695634/photo/skin-animals-texture-bag-luxury-item-on-white.jpg?s=612x612&w=0&k=20&c=QnRHcIjpwDEwYk_ce57cLhO-SzJnpPeVus5z6OmSOf8=',
+        thumbnail: 'https://media.istockphoto.com/id/1391811196/photo/flat-lay-composition-with-different-stylish-sports-shoes-on-pink-background.jpg?s=612x612&w=0&k=20&c=0dhgFC3sR9PTbOb_Qq09JN_73VhIBHc4zuGiC34G5is=',
         images: [
           'https://i.dummyjson.com/data/products/4/1.jpg',
           'https://i.dummyjson.com/data/products/4/2.jpg',
@@ -76,7 +76,7 @@ const Products =[
         stock: 32,
         brand: 'Huawei',
         category: 'smartphones',
-        thumbnail: 'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3233222/original.jpg',
+        thumbnail: 'https://images.unsplash.com/photo-1567958451986-2de427a4a0be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNsb3RoaW5nJTIwc3RvcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
         images: [
           'https://i.dummyjson.com/data/products/5/1.jpg',
           'https://i.dummyjson.com/data/products/5/2.jpg',
@@ -93,7 +93,7 @@ const Products =[
         stock: 83,
         brand: 'Apple',
         category: 'laptops',
-        thumbnail: 'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3036124/original.jpg',
+        thumbnail: 'https://media.istockphoto.com/id/1393991960/photo/young-unrecognizable-woman-trying-a-wristwatch-in-jewelry-store.jpg?s=612x612&w=0&k=20&c=0Sm47T9inF5d1fbMbTRu0nPCZsqJXlogksMPOKyb-QE=',
         images: [
           'https://i.dummyjson.com/data/products/6/1.png',
           'https://i.dummyjson.com/data/products/6/2.jpg',
@@ -111,7 +111,7 @@ const Products =[
         stock: 83,
         brand: 'Apple',
         category: 'laptops',
-        thumbnail: 'https://m.media-amazon.com/images/I/81qCnXvFEvL._AC_UL600_FMwebp_QL65_.jpg',
+        thumbnail: 'https://images.unsplash.com/photo-1580657018950-c7f7d6a6d990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNsb3RoaW5nJTIwc3RvcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
         images: [
           'https://i.dummyjson.com/data/products/6/1.png',
           'https://i.dummyjson.com/data/products/6/2.jpg',
@@ -129,12 +129,84 @@ const Products =[
         stock: 83,
         brand: 'Apple',
         category: 'laptops',
-        thumbnail: 'https://images.unsplash.com/photo-1490427712608-588e68359dbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWVuJTIwZmFzaGlvbiUyMGJhZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
+        thumbnail: 'https://media.istockphoto.com/id/1486876344/photo/black-friday.webp?b=1&s=170667a&w=0&k=20&c=3zhlXQwznCPKLNKzIPwfQDZQf3ednEGGXhOusuNn--4=',
         images: [
           'https://i.dummyjson.com/data/products/6/1.png',
           'https://i.dummyjson.com/data/products/6/2.jpg',
           'https://i.dummyjson.com/data/products/6/3.png',
           'https://i.dummyjson.com/data/products/6/4.jpg',
+        ],
+      },
+      {
+        id: 9,
+        title: 'Heels',
+        description:
+          'SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...',
+        discountPercentage: 17.94,
+        rating: 4.44,
+        stock: 34,
+        brand: 'Apple',
+        category: 'smartphones',
+        thumbnail: 'https://media.istockphoto.com/id/1406517328/photo/saree-store-selling-various-types-of-sarees-in-shop-ethnic-woman-clothing-in-india.webp?b=1&s=170667a&w=0&k=20&c=E3m0jMn-pyCMdmvIZ1adqrR3-KlVzlKh5cjsqkKCYnI=',
+        images: [
+          'https://i.dummyjson.com/data/products/2/1.jpg',
+          'https://i.dummyjson.com/data/products/2/2.jpg',
+          'https://i.dummyjson.com/data/products/2/3.jpg',
+          'https://i.dummyjson.com/data/products/2/thumbnail.jpg',
+        ],
+      },
+      {
+        id: 10,
+        title: 'Heels',
+        description:
+          'SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...',
+        discountPercentage: 17.94,
+        rating: 4.44,
+        stock: 34,
+        brand: 'Apple',
+        category: 'smartphones',
+        thumbnail: 'https://images.unsplash.com/photo-1565084888279-aca607ecce0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60',
+        images: [
+          'https://i.dummyjson.com/data/products/2/1.jpg',
+          'https://i.dummyjson.com/data/products/2/2.jpg',
+          'https://i.dummyjson.com/data/products/2/3.jpg',
+          'https://i.dummyjson.com/data/products/2/thumbnail.jpg',
+        ],
+      },
+      {
+        id: 11,
+        title: 'Heels',
+        description:
+          'SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...',
+        discountPercentage: 17.94,
+        rating: 4.44,
+        stock: 34,
+        brand: 'Apple',
+        category: 'smartphones',
+        thumbnail: 'https://media.istockphoto.com/id/1420389490/photo/smiling-beautiful-asian-woman-holding-cardboard-boxes-and-hands-show-smartphone-mockup-of.jpg?s=612x612&w=0&k=20&c=D6qcyAuM_O5b3lWnuixr_6M1Nn-ZqPVkAvE-QwHbM-0=',
+        images: [
+          'https://i.dummyjson.com/data/products/2/1.jpg',
+          'https://i.dummyjson.com/data/products/2/2.jpg',
+          'https://i.dummyjson.com/data/products/2/3.jpg',
+          'https://i.dummyjson.com/data/products/2/thumbnail.jpg',
+        ],
+      },
+      {
+        id: 12,
+        title: 'Heels',
+        description:
+          'SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...',
+        discountPercentage: 17.94,
+        rating: 4.44,
+        stock: 34,
+        brand: 'Apple',
+        category: 'smartphones',
+        thumbnail: 'https://media.istockphoto.com/id/1286329777/photo/preparing-self-care-package-seasonal-gift-box-with-plastic-free-zero-waste-cosmetics-products.jpg?s=612x612&w=0&k=20&c=Gf95cjUUALqlYw8KREMw4H0brjGOtjJrl-aIWUn_iQU=',
+        images: [
+          'https://i.dummyjson.com/data/products/2/1.jpg',
+          'https://i.dummyjson.com/data/products/2/2.jpg',
+          'https://i.dummyjson.com/data/products/2/3.jpg',
+          'https://i.dummyjson.com/data/products/2/thumbnail.jpg',
         ],
       },
 ]

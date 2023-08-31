@@ -4,7 +4,7 @@ import "../banner/Banner.css";
 const Banner = () => {
   return (
     <div>
-      
+    
       <div className="banner mx-auto">
         <div className="card card-compact ml-7 mt-1 rounded box bg-base-100 shadow-x3">
           <figure>
