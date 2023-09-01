@@ -13,16 +13,16 @@ const ProductDataWomen=[
     },
 
     {
-        id: 5, name: 'SKINNY JACKET',Image:'https://media.istockphoto.com/id/625036578/photo/autumn-photo-of-a-beautiful-girl.jpg?s=612x612&w=0&k=20&c=cBwVUJ4oSbgHZfeGxZFDC7r8CKspPrijrlriMImTAr4='
+        id: 5, name: 'WOMEN COAT',Image:'https://media.istockphoto.com/id/625036578/photo/autumn-photo-of-a-beautiful-girl.jpg?s=612x612&w=0&k=20&c=cBwVUJ4oSbgHZfeGxZFDC7r8CKspPrijrlriMImTAr4='
     },
     {
-        id: 6, name: 'SOHO SLIM FIT',Image:'https://media.istockphoto.com/id/1309723605/photo/nice-young-woman-with-blond-hair-and-casual-style-dressed-in-jeans.jpg?s=612x612&w=0&k=20&c=7HkeRMwhE9Q8GotlwexliyAtpP2EI4QNgEF0-BcquO8='
+        id: 6, name: 'WOMEN JEAN',Image:'https://media.istockphoto.com/id/1309723605/photo/nice-young-woman-with-blond-hair-and-casual-style-dressed-in-jeans.jpg?s=612x612&w=0&k=20&c=7HkeRMwhE9Q8GotlwexliyAtpP2EI4QNgEF0-BcquO8='
     },
     {
-        id: 7, name: 'HI-TIE',Image:'https://media.istockphoto.com/id/931256390/photo/attractive-african-american-girl-posing-in-yellow-suit-with-purple-suitcase-on-trendy-ultra.jpg?s=612x612&w=0&k=20&c=4OgCp9KNWKM-N3rVYIofiht0bHBHwx1kxMouRbO5mvU='
+        id: 7, name: 'WOMEN SUIT',Image:'https://media.istockphoto.com/id/931256390/photo/attractive-african-american-girl-posing-in-yellow-suit-with-purple-suitcase-on-trendy-ultra.jpg?s=612x612&w=0&k=20&c=4OgCp9KNWKM-N3rVYIofiht0bHBHwx1kxMouRbO5mvU='
     },
     {
-        id: 8, name: 'MEN FASHION BAG',Image:'https://media.istockphoto.com/id/1317457980/photo/beautiful-girl-wearing-golden-jewerly-a-golden-necklace-and-golden-rings.jpg?s=612x612&w=0&k=20&c=4cPQmuaYcoNUZ8xWjRVplRij_dwLHnU2r7We4JReJI4='
+        id: 8, name: 'NECKLACE',Image:'https://media.istockphoto.com/id/1317457980/photo/beautiful-girl-wearing-golden-jewerly-a-golden-necklace-and-golden-rings.jpg?s=612x612&w=0&k=20&c=4cPQmuaYcoNUZ8xWjRVplRij_dwLHnU2r7We4JReJI4='
     }
 
 ]
