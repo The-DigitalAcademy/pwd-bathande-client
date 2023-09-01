@@ -1,15 +1,15 @@
 import React from 'react'
-
+import '../Footer/Footer'
 
 function Footer() {
   return (
     <div>
       <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
   <div className="grid grid-flow-col gap-4">
-    <a className="link link-hover">About us</a> 
-    <a className="link link-hover">Contact</a> 
-    <a className="link link-hover">Help</a> 
-    <a className="link link-hover">Delivery</a>
+    <a href='/about' >About us</a> 
+    <a href='/contact' >Contact</a> 
+    <a href='/term' >Term</a> 
+    <a href='/delivery' >Delivery</a>
   </div> 
   <div>
     <div className="grid grid-flow-col gap-4">

@@ -15,6 +15,10 @@ import {
   import Error from '../Pages/error/ErrorMsg'
   import ProductNew from '../Data/ProductNew'
   import Category from "../components/Category/Category";
+  import About from "../Pages/About";
+  import Contact from "../Pages/Contact";
+  import Delivery from "../Pages/Delivery";
+  import Term from "../Pages/Term";
   const router = createBrowserRouter([
 
     {
@@ -69,6 +73,23 @@ import {
       path: "category/:id",
       element: <Category/>
     },
+    {
+      path: "/about",
+      element: <About/>
+    },
+    {
+      path: "/contact",
+      element: <Contact/>
+    },
+    {
+      path: "/delivery",
+      element: <Delivery/>
+    },
+    {
+      path: "/term",
+      element: <Term/>
+    },
+
   ]);
 
   export default router;
