@@ -1,10 +1,22 @@
 
 ### Men Products
-http://localhost:3000/api/productsMen
+http://localhost:8000/api/productsMen
 
-### Products
-http://localhost:3000/api/products
+### Single Men Products
+
+http://localhost:8000/api/productsMen/:id
 
 ### Women Products
 
-http://localhost:3000/api/productsWomen
+http://localhost:8000/api/productsWomen
+
+### Single Women Products
+
+http://localhost:8000/api/productsWomen/:id
+
+### Products
+http://localhost:8000/api/products
+
+### Single Products
+
+http://localhost:8000/api/products/:id
