@@ -1,11 +1,14 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { useEffect } from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Header from '../components/navbar/Header'
 import './Men.css'
 import {Link} from 'react-router-dom'
+import MyContext from '../../context/MyContext'
 
 const Men = () => {
+
+    const { cart, addToCart } = useContext(MyContext);
 
     const [men, setMen] = useState([])
 
@@ -17,6 +20,10 @@ const Men = () => {
 
     }, [])
 
+    const handleAddToCart = (product) =>
+    {
+        addToCart(product)
+    }
 
     return (
         <div>
@@ -40,7 +47,7 @@ const Men = () => {
                                         <h2 className="card-title">{viewmen.name}</h2>
                                         <p>R{viewmen.price}</p>
                                         <div className="card-actions justify-end">
-                                            <button className="btn btn-primary">ADD TO CART</button>
+                                            <button onClick={() => handleAddToCart(viewmen)} className="btn btn-primary">ADD TO CART</button>
 
                                         </div>
                                         <div className="card-actions justify-end">
@@ -57,6 +64,8 @@ const Men = () => {
                 }
 
             </div>
+
+            
         </div>
 
     )

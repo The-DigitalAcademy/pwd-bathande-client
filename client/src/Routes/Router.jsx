@@ -69,10 +69,6 @@ import {
     },
 
     {
-      path: "category/:id",
-      element: <Category/>
-    },
-    {
       path: "/category/:name",
       element: <CategoryProducts />,
     },
