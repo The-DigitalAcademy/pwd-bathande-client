@@ -46,7 +46,7 @@ const Navbar = () => {
                 <span className="font-bold text-lg">0 Items</span>
                 <span className="text-info">Subtotal: R0</span>
                 <div className="card-actions">
-                  <button className="btn btn-primary w-35 ml-1 mt-2 btn-block">
+                  <button className="btn btn-primary ml-2 w-200 btn-block">
                     View cart
                   </button>
                 </div>
