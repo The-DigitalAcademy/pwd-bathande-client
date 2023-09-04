@@ -1,13 +1,13 @@
 .card{
  width: 96%;
- height: 70vh;
+ height: 75vh;
 }
 
 .newWord{
     position: absolute;
     z-index: 2;
-    margin-top: -18rem;
-    margin-left: 37%;
+    margin-top: -15rem;
+    margin-left: 15rem;
     font-size: 3rem;
     background-color: rgb(60, 60, 60);
     width: 50rem;

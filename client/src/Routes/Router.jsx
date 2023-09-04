@@ -26,7 +26,7 @@ import {
         errorElement: <Error />
       },
 
-      {
+      { 
         path: "newarrivals",
         element: <NewArrivals/>,
       },
@@ -68,10 +68,6 @@ import {
       element: <Banner/>,
     },
 
-    {
-      path: "category/:id",
-      element: <Category/>
-    },
     {
       path: "/category/:name",
       element: <CategoryProducts />,
