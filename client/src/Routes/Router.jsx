@@ -52,12 +52,12 @@ import {
       },
 
       {
-        path: "login",
+        path: "/login",
         element: <Login/>,
       },
 
       {
-        path: "register",
+        path: "/register",
         element: <Register/>,
       },
     {
