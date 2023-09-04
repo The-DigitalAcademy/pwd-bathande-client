@@ -8,13 +8,15 @@ import {
   import Men from "../Pages/Men";
   import NewArrivals from "../Pages/NewArrivals";
   import Promos from "../Pages/Promos/Promos";
- // import Giftcards from "../components/Giftcards/Giftcards";
- import Giftcards from "../components/Giftcards/Giftcards"
-  import Login from "../Pages/Login"
-  import Register from "../Pages/Register";
+  import Giftcards from "../components/Giftcards/Giftcards"
+  import Login from "../Pages/Login/Login"
+  import Register from "../Pages/Register/Register";
   import Home from '../App'
   import Error from '../Pages/error/ErrorMsg'
- 
+  import ProductNew from '../Data/ProductNew'
+  import CategoryProducts from '../components/CategoryProducts/CategoryProducts'
+  import CatergoryMen from "../components/CategoryMen/CatergoryMen";
+
   const router = createBrowserRouter([
 
     {
@@ -23,9 +25,13 @@ import {
         errorElement: <Error />
       },
 
-      {
+      { 
         path: "newarrivals",
         element: <NewArrivals/>,
+      },
+      {
+        path: "/list/:name",
+        element: <ProductNew/>,
       },
 
       {
@@ -48,17 +54,26 @@ import {
       },
 
       {
-        path: "login",
+        path: "/login",
         element: <Login/>,
       },
 
       {
-        path: "register",
+        path: "/register",
         element: <Register/>,
       },
     {
       path: "banner",
       element: <Banner/>,
+    },
+
+    {
+      path: "/category/:name",
+      element: <CategoryProducts />,
+    },
+    {
+      path: "/category_men/:id",
+      element: <CatergoryMen />,
     },
   ]);
 

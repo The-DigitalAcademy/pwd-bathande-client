@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Header from '../components/navbar/Header'
 import './Men.css'
+import {Link} from 'react-router-dom'
 
 const Men = () => {
 
@@ -21,6 +22,7 @@ const Men = () => {
         <div>
             <Navbar />
             <Header />
+            <div className="promo-header">Men</div>
             <div class="grid-container">
                 {
                     men.map((viewmen, index) => {
@@ -36,10 +38,16 @@ const Men = () => {
                                     </figure>
                                     <div className="card-body">
                                         <h2 className="card-title">{viewmen.name}</h2>
-                                        <p>R3000</p>
+                                        <p>R{viewmen.price}</p>
                                         <div className="card-actions justify-end">
-                                            <button className="btn btn-primary">ADD TO CART</button>
+                                            <button className="btn btn-primary" >ADD TO CART</button>
+
                                         </div>
+                                        <div className="card-actions justify-end">
+
+                                            <Link className="btn btn-primary" to={`/category_men/${viewmen.id}`}>View</Link>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>

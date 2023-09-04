@@ -23,7 +23,7 @@ const Header = () => {
           </div>
           <a className="btn btn-ghost normal-case text-xl"></a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li className="nav-item">
@@ -52,17 +52,14 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Gift Card">
+              <a className="nav-link" href="/GiftCard">
                 Gift Card
               </a>
             </li>
           </ul>
         </div>
-
         </div>
-
-      </div>
-    </div>
+        </div>
   )
 }
 

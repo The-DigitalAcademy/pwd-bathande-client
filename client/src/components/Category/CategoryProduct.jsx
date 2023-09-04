@@ -1,14 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { data } from "../../Data/data";
-import Product from "../Product/Product";
+import {data} from "../data";
+import Product from '../components/Product'
 
 const CategoryProducts = () => {
   const { name } = useParams();
 
+  console.log(name)
+
+
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
+      
     let p = data.filter((product) => product.category === name);
 
     setProducts(p);
@@ -18,10 +22,7 @@ const CategoryProducts = () => {
     <div className="categoryPoducts">
       <div className="header">Category{name}</div>
       <div className="products">
-        {console.log(name)}
-        {products?.map((product) => (
-          <Product key={product.id} product={product} />
-        ))}
+        {products?.map((product) => <Product key={product.id} product={product} />)}
       </div>
     </div>
   );
