@@ -9,8 +9,6 @@ import {
   import NewArrivals from "../Pages/NewArrivals";
   import Promos from "../Pages/Promos/Promos";
   import Giftcards from "../components/Giftcards/Giftcards"
-  import Login from "../Pages/Login/Login"
-  import Register from "../Pages/Register/Register";
   import Home from '../App'
   import Error from '../Pages/error/ErrorMsg'
   import ProductNew from '../Data/ProductNew'
