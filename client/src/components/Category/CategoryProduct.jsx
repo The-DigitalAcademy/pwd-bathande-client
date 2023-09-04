@@ -12,7 +12,7 @@ const CategoryProducts = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-
+      
     let p = data.filter((product) => product.category === name);
 
     setProducts(p);

@@ -35,6 +35,7 @@ const Category = () => {
             {name}
           </Link>
         ))}
+        
       </div>
     </div>
   );
