@@ -29,7 +29,6 @@ const Category = () => {
   return (
     <div className="category">
       <div className="header">Product Category</div>
-
       <div className="list-2">
         {categoryNames?.map((name, index) => (
           <Link to={`/category/${name}`} className="item" key={index}>
