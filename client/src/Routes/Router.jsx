@@ -9,12 +9,15 @@ import {
   import NewArrivals from "../Pages/NewArrivals";
   import Promos from "../Pages/Promos/Promos";
   import Giftcards from "../components/Giftcards/Giftcards"
-  import Login from "../Pages/Login"
-  import Register from "../Pages/Register";
+  import Login from "../Pages/Login/Login"
+  import Register from "../Pages/Register/Register";
   import Home from '../App'
   import Error from '../Pages/error/ErrorMsg'
   import ProductNew from '../Data/ProductNew'
   import Category from "../components/Category/Category";
+  import CategoryProducts from '../components/CategoryProducts/CategoryProducts'
+  import CatergoryMen from "../components/CategoryMen/CatergoryMen";
+
   const router = createBrowserRouter([
 
     {
@@ -68,6 +71,14 @@ import {
     {
       path: "category/:id",
       element: <Category/>
+    },
+    {
+      path: "/category/:name",
+      element: <CategoryProducts />,
+    },
+    {
+      path: "/category_men/:id",
+      element: <CatergoryMen />,
     },
   ]);
 

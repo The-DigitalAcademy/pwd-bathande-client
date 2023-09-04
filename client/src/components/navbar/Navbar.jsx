@@ -62,20 +62,10 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
-                <a className="justify-between" href="/login">
-                  SignIn
-                  {/* <span className="badge">New</span> */}
+             <li className="nav-item">
+                <a className="nav-link" href="/Login">
+                  Login
                 </a>
-              </li>
-              <li>
-                <a className="justify-between" href="/register">
-                  SignUp
-                  <span className="badge">New</span>
-                </a>
-              </li>
-              <li>
-                <a>Settings</a>
               </li>
               <li>
                 <a>LogOut</a>

@@ -3,7 +3,7 @@ import MyContext from './MyContext'
 
 function ContextState({children}){
     const data = [
-        {id: 1, usename: 'bathande@gmail.com',Email:'1234'}
+        {id: 1, username: 'bathande@gmail.com',Email:'1234'}
     ]
     return (
         <MyContext.Provider value={data}>
@@ -11,3 +11,5 @@ function ContextState({children}){
         </MyContext.Provider>
     )
 }
+
+export default ContextState

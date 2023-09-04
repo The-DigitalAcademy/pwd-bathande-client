@@ -5,4 +5,11 @@ const getAllMen = (req, res) => {
     res.json({ data: PRODUCTSMEN })
 }
 
-module.exports = { getAllMen }
+const getSingleMenProduct = (req, res) => {
+    const id = req.params.id
+
+    const product = PRODUCTSMEN.find(product => product.id == id)
+
+    return res.json({ data: product })
+}
+module.exports = { getAllMen, getSingleMenProduct }
