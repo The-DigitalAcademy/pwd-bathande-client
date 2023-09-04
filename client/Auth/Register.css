@@ -1,0 +1,21 @@
+.background{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.911)),
+    url(../assests/mountain.jpg);
+    width: 100%;
+    height: 150vh;
+}
+
+h6{
+ margin-top: -2rem;
+ font-weight: bolder;
+ font-size: 25px;
+}
+
+.forms{
+    height: 23rem;
+}
+
+.words{
+    margin-left: -3rem;
+}
