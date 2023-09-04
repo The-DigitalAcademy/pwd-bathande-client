@@ -44,7 +44,7 @@ const Navbar = () => {
             >
               <div className="card-body">
                 <span className="font-bold text-lg">0 Items</span>
-                <span className="text-info">Subtotal: R100</span>
+                <span className="text-info">Subtotal: R0</span>
                 <div className="card-actions">
                   <button className="btn btn-primary w-35 ml-1 mt-2 btn-block">
                     View cart
