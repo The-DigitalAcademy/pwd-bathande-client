@@ -14,7 +14,6 @@ import {
   import Home from '../App'
   import Error from '../Pages/error/ErrorMsg'
   import ProductNew from '../Data/ProductNew'
-  import Category from "../components/Category/Category";
   import CategoryProducts from '../components/CategoryProducts/CategoryProducts'
   import CatergoryMen from "../components/CategoryMen/CatergoryMen";
 
