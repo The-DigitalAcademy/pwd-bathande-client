@@ -14,6 +14,9 @@ import {
   import ProductNew from '../Data/ProductNew'
   import CategoryProducts from '../components/CategoryProducts/CategoryProducts'
   import CatergoryMen from "../components/CategoryMen/CatergoryMen";
+  import Register from "../Pages/auth/Register";
+  import Login from "../Pages/Login/Login";
+  import NeighborhoodLogini from "../Pages/Login/LeighborhoodLogini";
 
   const router = createBrowserRouter([
 
@@ -51,15 +54,20 @@ import {
         element: <Giftcards/>,
       },
 
-      // {
-      //   path: "/login",
-      //   element: <Login/>,
-      // },
+      {
+        path: "/login",
+        element: <Login/>,
+      },
 
-      // {
-      //   path: "/register",
-      //   element: <Register/>,
-      // },
+      {
+        path: "/register",
+        element: <Register/>,
+      },
+      {
+        path: "NeighborhoodLogini",
+        element: <NeighborhoodLogini/>,
+      },
+
     {
       path: "banner",
       element: <Banner/>,
