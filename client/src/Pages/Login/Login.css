@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
     padding:0;
-    background-color: white;
+  
 }
 
 form{
+    background-color: white;
     position: fixed;
     margin-left: 38.5rem;
     margin-top: 5rem;
@@ -113,7 +114,7 @@ input[type="checkbox"]+label {
 }
 
 .word{
-    margin-left: -1.5rem;
+    margin-left: -3rem;
 }
 input, label {
     animation: check 300ms;
@@ -144,13 +145,7 @@ input label:after {
 input[type="checkbox"]:checked+label:after {
     border-color: blue;
 }
-.Background{
-    background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.911)),
-    url(../assests/mountain.jpg);
-    width: 100%;
-    height: 150vh;
-}
+
 
 
 @keyframes check {
@@ -202,6 +197,20 @@ input[type="checkbox"]:checked+label:after {
 hr{
     border:1px solid #ebebeb;
     margin-top:-9px;
+
+}
+h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: -24%;
+   
+}
+label {
+    margin-left: -24%;
+
+}
+.a{
+    margin-left: -24%;
 }
 .google{
     margin-top:15px;
