@@ -42,7 +42,7 @@ const Navbar = () => {
                   />
                 </svg>
 
-                <span className="badge badge-sm indicator-item">
+                <span className="badge badge-sm indicator-item"/>
                   {cart.length}
 
               </div>
