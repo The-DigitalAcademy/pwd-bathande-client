@@ -51,15 +51,15 @@ import {
         element: <Giftcards/>,
       },
 
-      {
-        path: "/login",
-        element: <Login/>,
-      },
+      // {
+      //   path: "/login",
+      //   element: <Login/>,
+      // },
 
-      {
-        path: "/register",
-        element: <Register/>,
-      },
+      // {
+      //   path: "/register",
+      //   element: <Register/>,
+      // },
     {
       path: "banner",
       element: <Banner/>,
