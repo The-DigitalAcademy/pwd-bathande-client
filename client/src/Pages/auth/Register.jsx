@@ -1,10 +1,15 @@
-import React from 'react'
-import '../Auth/Register.css'
+import React from "react";
+import Navbar from "../../components/navbar/Navbar";
+import Header from "../../components/navbar/Header";
+import '../auth/Register.css'
 
 const Register = () => {
   return (
     <div className="background">
+        <Navbar/>
+        <Header/>
       <form className="forms">
+        
         <h6>Register</h6>
         <div className="container-cardz">
           <label htmlFor="exampleInputName">Your name</label>
@@ -47,10 +52,11 @@ const Register = () => {
           Submit
         </button>
         <br />
+        <br />
         <a href="/login" className="words">Do you have an account?</a>
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default Register
+export default Register;
