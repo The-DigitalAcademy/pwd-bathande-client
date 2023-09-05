@@ -9,7 +9,6 @@ const Login = () => {
     <div>
       <Navbar />
       <Header />
-     
       <NeighborhoodLogini />
     </div>
   );

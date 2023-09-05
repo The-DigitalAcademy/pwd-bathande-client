@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import MyContext from "../../../context/MyContext";
 
+
 const Navbar = () => {
   let total = 0;
 
@@ -40,13 +41,15 @@ const Navbar = () => {
                     d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                   />
                 </svg>
+
                 <span className="badge badge-sm indicator-item">
                   {cart.length}
-                </span>
+
               </div>
             </label>
             <div
               tabIndex={0}
+
               className="menu menu-sm dropdown-content mt-2 z-[3] p-4 shadow bg-base-100 rounded-box w-80"
             >
               <div className="card-body">
@@ -66,8 +69,9 @@ const Navbar = () => {
 
                 <span className="font-bold text-lg">{cart.length} Items</span>
                 <span className="text-info">Subtotal: R{total}</span>
+
                 <div className="card-actions">
-                  <button className="btn btn-primary btn-block">
+                  <button className="btn btn-primary ml-2 w-200 btn-block">
                     View cart
                   </button>
                 </div>

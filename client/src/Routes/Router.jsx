@@ -9,12 +9,9 @@ import {
   import NewArrivals from "../Pages/NewArrivals";
   import Promos from "../Pages/Promos/Promos";
   import Giftcards from "../components/Giftcards/Giftcards"
-  import Login from "../Pages/Login/Login"
-  import Register from "../Pages/Register/Register";
   import Home from '../App'
   import Error from '../Pages/error/ErrorMsg'
   import ProductNew from '../Data/ProductNew'
-  import Category from "../components/Category/Category";
   import CategoryProducts from '../components/CategoryProducts/CategoryProducts'
   import CatergoryMen from "../components/CategoryMen/CatergoryMen";
 
@@ -26,7 +23,7 @@ import {
         errorElement: <Error />
       },
 
-      {
+      { 
         path: "newarrivals",
         element: <NewArrivals/>,
       },
@@ -55,12 +52,12 @@ import {
       },
 
       {
-        path: "login",
+        path: "/login",
         element: <Login/>,
       },
 
       {
-        path: "register",
+        path: "/register",
         element: <Register/>,
       },
     {

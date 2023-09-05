@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import MyContext from "../context/MyContext";
 
@@ -28,8 +29,6 @@ function ContextState({ children }) {
     }
   }, []);
 
-  console.log(local
-    )
   // const removeFromCart = (itemId) => {
   //   const updatedCart = cart.filter((item) => item.id !== itemId);
   //   setCart(updatedCart);

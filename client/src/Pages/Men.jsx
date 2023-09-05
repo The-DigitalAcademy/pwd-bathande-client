@@ -47,7 +47,9 @@ const Men = () => {
                                         <h2 className="card-title">{viewmen.name}</h2>
                                         <p>R{viewmen.price}</p>
                                         <div className="card-actions justify-end">
+
                                             <button onClick={() => handleAddToCart(viewmen)} className="btn btn-primary">ADD TO CART</button>
+
 
                                         </div>
                                         <div className="card-actions justify-end">
