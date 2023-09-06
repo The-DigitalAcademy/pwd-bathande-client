@@ -19,8 +19,7 @@ const Register = () => {
             id="exampleInputEmail1"
             aria-describedby="nameHelp"
             placeholder="Enter name"
-            value={""}
-            onChange={""}
+
           />
         </div>
         <div className="container-cardz">
@@ -31,8 +30,7 @@ const Register = () => {
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             placeholder="Enter email"
-            value={""}
-            onChange={""}
+
           />
         </div>
 
@@ -43,8 +41,6 @@ const Register = () => {
             className="form-control"
             id="exampleInputPassword1"
             placeholder="Password"
-            value={""}
-            onChange={""}
           />
         </div>
 

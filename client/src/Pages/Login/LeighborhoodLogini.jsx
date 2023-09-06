@@ -42,8 +42,7 @@ function NeighborhoodLogini() {
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
           placeholder="Enter email"
-          value={usernameT}
-          onChange={handleUsernameChange}
+      
         />
       </div>
 
@@ -54,8 +53,7 @@ function NeighborhoodLogini() {
           className="form-control"
           id="exampleInputPassword1"
           placeholder="Password"
-          value={passwordT}
-          onChange={handlePasswordChange}
+      
         />
       </div>
 
