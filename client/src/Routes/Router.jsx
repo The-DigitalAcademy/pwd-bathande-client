@@ -14,15 +14,9 @@ import {
   import ProductNew from '../Data/ProductNew'
   import CategoryProducts from '../components/CategoryProducts/CategoryProducts'
   import CatergoryMen from "../components/CategoryMen/CatergoryMen";
-<<<<<<< HEAD
-import Login from "../../Login/Login";
-import Register from "../../Auth/Register";
-
-=======
   import Register from "../Pages/auth/Register";
   import Login from "../Pages/Login/Login";
   import NeighborhoodLogini from "../Pages/Login/LeighborhoodLogini";
->>>>>>> 01e814efaf7db334109c9f9763d4aaf22a68faf9
 
   const router = createBrowserRouter([
 
